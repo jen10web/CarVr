@@ -1,5 +1,5 @@
 
-\title{CARVR - A Virtual Reality Experiment with Remote Vehicle}
+CARVR - A Virtual Reality Experiment with Remote Vehicle
 
 
 //Insert image of final product
