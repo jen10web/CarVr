@@ -1,5 +1,5 @@
-"# CarVr" 
-CARVR - A Virtual Reality Experiment with Remote Vehicle
+
+\title{CARVR - A Virtual Reality Experiment with Remote Vehicle}
 
 
 //Insert image of final product
