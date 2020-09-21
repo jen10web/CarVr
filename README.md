@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 CARVR - A Virtual Reality Experiment with Remote Vehicle
 
@@ -17,3 +18,6 @@ Special Gotchas of your projects (Problems you faced, unique elements of your pr
 Installation: 
 Setup: 
 How To: 
+=======
+"# CarVr" 
+>>>>>>> parent of 578ffcd5... Update README.md
