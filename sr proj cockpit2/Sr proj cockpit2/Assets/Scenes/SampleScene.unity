@@ -134,7 +134,6 @@ GameObject:
   - component: {fileID: 507462142}
   - component: {fileID: 507462141}
   - component: {fileID: 507462145}
-  - component: {fileID: 507462147}
   - component: {fileID: 507462146}
   m_Layer: 0
   m_Name: Cube
@@ -226,7 +225,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 507462140}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5af01741b635d684ea95252b0f3b1e97, type: 3}
+  m_Script: {fileID: 11500000, guid: b9200243e4a253e478ba6713935c5d5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   streamAddress: 
@@ -244,22 +243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9200243e4a253e478ba6713935c5d5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  streamAddress: 
-  showFps: 1
-  chunkSize: 4
---- !u!114 &507462147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 507462140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9200243e4a253e478ba6713935c5d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  streamAddress: 
+  streamAddress: http://mail.bekescsaba.hu:8080/mjpg/video.mjpg
   showFps: 1
   chunkSize: 4
 --- !u!1 &705507993
