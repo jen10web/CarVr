@@ -227,7 +227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9200243e4a253e478ba6713935c5d5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  streamAddress: http://mail.bekescsaba.hu:8080/mjpg/video.mjpg
+  streamAddress: http://192.168.86.78:8000/stream.mjpg
   chunkSize: 4
 --- !u!1 &963194225
 GameObject:
