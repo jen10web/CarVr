@@ -18,8 +18,8 @@ class MyController(Controller):
 
     #get the raspberry pi and initialize duty cycle to 0
     pi = pigpio.pi();
-    pi.set_servo_pulsewidth(ESCr, 0) 
-    pi.set_servo_pulsewidth(ESCl, 0) 
+    pi.set_servo_pulsewidth(rESC, 0) 
+    pi.set_servo_pulsewidth(lESC, 0) 
     
 
     #set up some speed constants
