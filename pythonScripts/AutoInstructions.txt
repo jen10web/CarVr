@@ -2,9 +2,9 @@
 # sudo nano /etc/rc.local
 # enter your commands before the exit 0 in the following format:
 
-# Pi to Car Control Script
-sudo python /home/pi/ControllerPi.py & # Controller to Pi Script
 sudo python /home/pi/Camera.py & # Camera Stream Script
+sudo python /home/pi/MotorControl.py # Pi to Car Control Script
+
 
 # WARING: This code is called at startup - make sure it is correct
 # Call sudo reboot
