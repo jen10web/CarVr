@@ -1,5 +1,4 @@
 #!/bin/sh
 
-./phookup.sh
-python3 Motorcontrollerv2.py
-python3 Camera.py
+python3 camera.py &
+python3 MotorControllerv2.py &
