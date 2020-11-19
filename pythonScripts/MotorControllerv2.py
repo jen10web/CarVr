@@ -8,8 +8,6 @@ time.sleep(1) # As i said it is too impatient and so if this delay is removed yo
 from pyPS4Controller.controller import Controller
 
 
-
-
 class MyController(Controller):
     
     #connect the ESC for each motor to gpio pins
@@ -40,50 +38,50 @@ class MyController(Controller):
             MyController.pi_pwml.ChangeDutyCycle(0)
         elif direc == "up":
             if value <= MyController.controller_step:
-                MyController.pi_pwml.ChangeDutyCycle(MyController.esc_step)
+                MyController.pi_pwml.ChangeDutyCycle(5)
             elif value <= (MyController.controller_step*2):
-                MyController.pi_pwml.ChangeDutyCycle(MyController.esc_step*2)
+                MyController.pi_pwml.ChangeDutyCycle(10)
             elif value <= (MyController.controller_step*3):
-                MyController.pi_pwml.ChangeDutyCycle(MyController.esc_step*3)
+                MyController.pi_pwml.ChangeDutyCycle(15)
             elif value <= (MyController.controller_step*4):
-                MyController.pi_pwml.ChangeDutyCycle(MyController.esc_step*4)
+                MyController.pi_pwml.ChangeDutyCycle(20)
             elif value <= (MyController.controller_step*5):
-                MyController.pi_pwml.ChangeDutyCycle(MyController.esc_step*5)
+                MyController.pi_pwml.ChangeDutyCycle(25)
             elif value <= (MyController.controller_step*6):
-                MyController.pi_pwml.ChangeDutyCycle(MyController.esc_step*6)
+                MyController.pi_pwml.ChangeDutyCycle(30)
             elif value <= (MyController.controller_step*7):
-                MyController.pi_pwml.ChangeDutyCycle(MyController.esc_step*7)
+                MyController.pi_pwml.ChangeDutyCycle(35)
             elif value <= (MyController.controller_step*8):
-                MyController.pi_pwml.ChangeDutyCycle(MyController.esc_step*8)
+                MyController.pi_pwml.ChangeDutyCycle(40)
             elif value <= (MyController.controller_step*9):
-                MyController.pi_pwml.ChangeDutyCycle(MyController.esc_step*9)
+                MyController.pi_pwml.ChangeDutyCycle(45)
             elif value <= (MyController.controller_step*10):
-                MyController.pi_pwml.ChangeDutyCycle(MyController.esc_step*10)
+                MyController.pi_pwml.ChangeDutyCycle(70)
                 
     def Controlrmotor(self, direc, value):
        if direc == "release":                 #if release stop
             MyController.pi_pwmr.ChangeDutyCycle(0)
        elif direc == "up":
             if value <= MyController.controller_step:
-                MyController.pi_pwmr.ChangeDutyCycle(MyController.esc_step)
+                MyController.pi_pwmr.ChangeDutyCycle(7)
             elif value <= (MyController.controller_step*2):
-                MyController.pi_pwmr.ChangeDutyCycle(MyController.esc_step*2)
+                MyController.pi_pwmr.ChangeDutyCycle(15)
             elif value <= (MyController.controller_step*3):
-                MyController.pi_pwmr.ChangeDutyCycle(MyController.esc_step*3)
+                MyController.pi_pwmr.ChangeDutyCycle(23)
             elif value <= (MyController.controller_step*4):
-                MyController.pi_pwmr.ChangeDutyCycle(MyController.esc_step*4)
+                MyController.pi_pwmr.ChangeDutyCycle(30)
             elif value <= (MyController.controller_step*5):
-                MyController.pi_pwmr.ChangeDutyCycle(MyController.esc_step*5)
+                MyController.pi_pwmr.ChangeDutyCycle(37)
             elif value <= (MyController.controller_step*6):
-                MyController.pi_pwmr.ChangeDutyCycle(MyController.esc_step*6)
+                MyController.pi_pwmr.ChangeDutyCycle(45)
             elif value <= (MyController.controller_step*7):
-                MyController.pi_pwmr.ChangeDutyCycle(MyController.esc_step*7)
+                MyController.pi_pwmr.ChangeDutyCycle(53)
             elif value <= (MyController.controller_step*8):
-                MyController.pi_pwmr.ChangeDutyCycle(MyController.esc_step*8)
+                MyController.pi_pwmr.ChangeDutyCycle(60)
             elif value <= (MyController.controller_step*9):
-                MyController.pi_pwmr.ChangeDutyCycle(MyController.esc_step*9)
+                MyController.pi_pwmr.ChangeDutyCycle(68)
             elif value <= (MyController.controller_step*10):
-                MyController.pi_pwmr.ChangeDutyCycle(MyController.esc_step*10)
+                MyController.pi_pwmr.ChangeDutyCycle(75)
        
        
         #controller input events
