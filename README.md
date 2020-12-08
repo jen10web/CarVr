@@ -1,12 +1,10 @@
-<<<<<<< HEAD
-
-CARVR - A Virtual Reality Experiment with Remote Vehicle
+# CARVR - A Virtual Reality Experiment with Remote Vehicle
 
 
 //Insert image of final product
 ![alt text](https://github.com/jen10web/CarVr/blob/Master/image.jpg?raw=true)
 
-Virtual reality is becoming more applicable to fields beyond gaming. To test the proficinecy of it as an addition to control systems, 
+## Virtual reality is becoming more applicable to fields beyond gaming. To test the proficinecy of it as an addition to control systems, 
 our 2020 Senior project team set out to link it to a remote rover. 
 Demo(Images, Video links, Live Demo links):
 
