@@ -3,7 +3,7 @@
 ## Virtual reality is becoming more applicable to fields beyond gaming. To test the proficinecy of it as an addition to control systems, our 2020 Senior project team set out to link it to a remote rover:
 
 
-![alt text](https://github.com/jen10web/CarVr/blob/master/628123290.jpg)
+![alt text](https://github.com/jen10web/CarVr/blob/master/628123290.jpg) ![alt text](https://github.com/jen10web/CarVr/blob/master/IMG952845.jpg)
 
 
 [Demo Video](https://www.youtube.com/watch?v=XLQnoL_HQWo&feature=youtu.be)
