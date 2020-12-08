@@ -5,10 +5,10 @@ Insert image of final product
 ![alt text](https://github.com/jen10web/CarVr/blob/Master/image.jpg?raw=true)
 
 
-## Virtual reality is becoming more applicable to fields beyond gaming. To test the proficinecy of it as an addition to control systems, 
-our 2020 Senior project team set out to link it to a remote rover. 
-Demo(Images, Video links, Live Demo links):
+## Virtual reality is becoming more applicable to fields beyond gaming. To test the proficinecy of it as an addition to control systems, our 2020 Senior project team set out to link it to a remote rover. 
 
+## Demo(Images, Video links, Live Demo links):
+[Demo Video](https://www.youtube.com/watch?v=XLQnoL_HQWo&feature=youtu.be)
 
 ### Technologies Used:
 Scripting Languages: Unity 2019.4.11.f1, Python 3 or higher. 
