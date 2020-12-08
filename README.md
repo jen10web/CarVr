@@ -5,7 +5,7 @@
 
 ![alt text](https://github.com/jen10web/CarVr/blob/master/628123290.jpg) 
 
-![Demo Video](https://www.youtube.com/watch?v=XLQnoL_HQWo&feature=youtu.be)
+[Demo Video](https://www.youtube.com/watch?v=XLQnoL_HQWo&feature=youtu.be)
 
 ### Technologies Used:
 Scripting Languages: Unity 2019.4.11.f1, Python 3 or higher. 
